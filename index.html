@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究者のホームページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>研究者の名前</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">プロフィール</a></li>
+                <li><a href="#research">研究</a></li>
+                <li><a href="#publications">業績</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>プロフィール</h2>
+        <p>ここに自己紹介文を入力します。</p>
+    </section>
+    
+    <section id="research">
+        <h2>研究</h2>
+        <p>ここに研究内容の概要を入力します。</p>
+    </section>
+    
+    <section id="publications">
+        <h2>業績</h2>
+        <ul>
+            <li>論文タイトル1 - <a href="リンク">リンク</a></li>
+            <li>論文タイトル2 - <a href="リンク">リンク</a></li>
+            <!-- その他の業績 -->
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">送信</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 研究者の名前. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
